@@ -217,21 +217,22 @@
     "panel.background": "#191B2A",
     "editorCursor.foreground": "#EFF0F6",
     "editor.foreground": "#EFF0F6",
+    "editor.lineHighlightBackground": "#1d1f30",
     "editorWhitespace.foreground": "#4F5987",
-    "editor.lineHighlightBackground": "#4F5987",
     "editor.selectionBackground": "#656FA4",
     "sideBar.background": "#191B2A",
     "sideBar.foreground": "#EFF0F6",
     "sideBar.dropBackground": "#2a2d46",
     "sideBarSectionHeader.background": "#2a2d46",
+    "input.background": "#2a2d46",
+    "list.activeSelectionBackground": "#2a2d46",
     "sideBarSectionHeader.foreground": "#EFF0F6",
     "activityBar.background": "#191B2A",
     "activityBar.foreground": "#EFF0F6",
     "titleBar.activeBackground": "#191B2A",
+    "editorGroupHeader.tabsBackground": "#2a2d46",
     "titleBar.activeForeground": "#EFF0F6",
-    "statusBar.background": "#858db7",
-    "statusBar.debuggingBackground": "#f1b3f1",
-    "statusBar.foreground": "#191b2a"
+    "tab.inactiveBackground": "#3c4367"
   },
   "name": "Dank Neon"
 }
