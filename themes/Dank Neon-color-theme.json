@@ -2,39 +2,37 @@
 	"tokenColors": [
 		{
 			"settings": {
-				"background": "#282A2D",
-				"foreground": "#F0F0F0"
+				"background": "#191B2A",
+				"foreground": "#EFF0F6"
 			}
 		},
 		{
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#A3A3A3",
-				"fontStyle": "italic"
+				"foreground": "#858DB7",
+				"fontStyle": " italic"
 			}
 		},
 		{
 			"name": "String",
 			"scope": "string",
 			"settings": {
-				"foreground": "#4ADBFF",
-				"fontStyle": " italic"
+				"foreground": "#94BFFF"
 			}
 		},
 		{
 			"name": "Number",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#AE81FF"
+				"foreground": "#F1B3F1"
 			}
 		},
 		{
 			"name": "Built-in constant",
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#AE81FF",
-				"fontStyle": " italic "
+				"foreground": "#F1B3F1"
 			}
 		},
 		{
@@ -44,46 +42,46 @@
 				"constant.other"
 			],
 			"settings": {
-				"foreground": "#AE81FF"
+				"foreground": "#F1B3F1"
 			}
 		},
 		{
 			"name": "Variable",
 			"scope": "variable",
 			"settings": {
-				"fontStyle": " italic   bold  ",
-				"foreground": "#FF4FE8"
+				"fontStyle": "",
+				"foreground": "#39FFBA"
 			}
 		},
 		{
 			"name": "Keyword",
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#F92672",
-				"fontStyle": " italic bold"
+				"foreground": "#FF476E"
 			}
 		},
 		{
 			"name": "Storage",
 			"scope": "storage",
 			"settings": {
-				"foreground": "#F92672"
+				"fontStyle": "",
+				"foreground": "#FF476E"
 			}
 		},
 		{
 			"name": "Storage type",
 			"scope": "storage.type",
 			"settings": {
-				"fontStyle": "italic  bold",
-				"foreground": "#66D9EF"
+				"fontStyle": "italic",
+				"foreground": "#01F7F7"
 			}
 		},
 		{
 			"name": "Class name",
 			"scope": "entity.name.class",
 			"settings": {
-				"fontStyle": "underline     ",
-				"foreground": "#74FA44"
+				"fontStyle": "underline",
+				"foreground": "#39FFBA"
 			}
 		},
 		{
@@ -91,15 +89,15 @@
 			"scope": "entity.other.inherited-class",
 			"settings": {
 				"fontStyle": "italic underline",
-				"foreground": "#54E8FF"
+				"foreground": "#FFEE7A"
 			}
 		},
 		{
 			"name": "Function name",
 			"scope": "entity.name.function",
 			"settings": {
-				"foreground": "#74FA44",
-				"fontStyle": " bold"
+				"fontStyle": "",
+				"foreground": "#FF476E"
 			}
 		},
 		{
@@ -107,7 +105,7 @@
 			"scope": "variable.parameter",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FD971F"
+				"foreground": "#FFEE7A"
 			}
 		},
 		{
@@ -115,28 +113,31 @@
 			"scope": "entity.name.tag",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#F92672"
+				"foreground": "#FF476E"
 			}
 		},
 		{
 			"name": "Tag attribute",
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#A6E22E"
+				"fontStyle": "",
+				"foreground": "#39FFBA"
 			}
 		},
 		{
 			"name": "Library function",
 			"scope": "support.function",
 			"settings": {
-				"foreground": "#66D9EF"
+				"fontStyle": "",
+				"foreground": "#39FFBA"
 			}
 		},
 		{
 			"name": "Library constant",
 			"scope": "support.constant",
 			"settings": {
-				"foreground": "#66D9EF"
+				"fontStyle": "",
+				"foreground": "#FFEE7A"
 			}
 		},
 		{
@@ -146,20 +147,23 @@
 				"support.class"
 			],
 			"settings": {
-				"fontStyle": "italic ",
-				"foreground": "#66D9EF"
+				"fontStyle": "italic",
+				"foreground": "#39FFBA"
 			}
 		},
 		{
 			"name": "Library variable",
 			"scope": "support.other.variable",
-			"settings": {}
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#FFEE7A"
+			}
 		},
 		{
 			"name": "Invalid",
 			"scope": "invalid",
 			"settings": {
-				"background": "#F92672",
+				"background": "#FF476E",
 				"fontStyle": "",
 				"foreground": "#F8F8F0"
 			}
@@ -168,18 +172,59 @@
 			"name": "Invalid deprecated",
 			"scope": "invalid.deprecated",
 			"settings": {
-				"background": "#AE81FF",
+				"background": "#9470FF",
 				"foreground": "#F8F8F0"
+			}
+		},
+		{
+			"name": "JS Incidentals",
+			"scope": [
+				"source.js meta.brace.curly.js",
+				"source.js meta.function.js punctuation.definition.parameters.begin.js",
+				"source.js meta.function.js punctuation.definition.parameters.end.js",
+				"source.js meta.brace.round.js",
+				"source.js meta.delimiter.object.comma.js"
+			],
+			"settings": {
+				"foreground": "#4F5987"
+			}
+		},
+		{
+			"name": "Python Incidentals",
+			"scope": [
+				"source.python meta.class.python punctuation.definition.inheritance.begin.python",
+				"source.python meta.class.python punctuation.definition.inheritance.end.python",
+				"source.python meta.function.python punctuation.definition.parameters.begin.python",
+				"source.python meta.function.python punctuation.definition.parameters.end.python",
+				"source.python meta.function-call.python punctuation.definition.arguments.begin.python",
+				"source.python meta.function-call.python punctuation.definition.arguments.end.python",
+				"source.python meta.function.python meta.function.parameters.python punctuation.separator.parameters.python"
+			],
+			"settings": {
+				"foreground": "#4F5987"
+			}
+		},
+		{
+			"name": "Ruby Incidentals",
+			"scope": [
+				"source.ruby meta.function.method.with-arguments.ruby punctuation.definition.parameters.ruby",
+				"source.ruby punctuation.section.array.ruby",
+				"source.ruby punctuation.section.function.ruby",
+				"source.ruby meta.require.ruby meta.environment-variable.ruby",
+				"source.ruby punctuation.separator.variable.ruby"
+			],
+			"settings": {
+				"foreground": "#4F5987"
 			}
 		}
 	],
 	"colors": {
-		"editor.background": "#282A2D",
-		"editorCursor.foreground": "#FFFFFF",
-		"editor.foreground": "#F0F0F0",
-		"editorWhitespace.foreground": "#3B3A32",
-		"editor.lineHighlightBackground": "#3E3D32",
-		"editor.selectionBackground": "#49483E"
+		"editor.background": "#191B2A",
+		"editorCursor.foreground": "#EFF0F6",
+		"editor.foreground": "#EFF0F6",
+		"editorWhitespace.foreground": "#4F5987",
+		"editor.lineHighlightBackground": "#4F5987",
+		"editor.selectionBackground": "#656FA4"
 	},
 	"name": "Dank Neon"
 }
