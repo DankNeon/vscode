@@ -2,7 +2,7 @@
     "name": "dank-neon",
     "displayName": "Dank Neon",
     "description": "A danker, more neon theme for VS Code",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.30.0"
     },
