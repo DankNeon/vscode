@@ -1,4 +1,5 @@
 {
+  "name": "Dank Neon",
   "tokenColors": [
     {
       "settings": {
@@ -210,6 +211,231 @@
       "settings": {
         "foreground": "#4F5987"
       }
+    },
+    {
+      "name": "Markup: strike",
+      "scope": ["markup.strike"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ffca7a"
+      }
+    },
+    {
+      "name": "Markup: link",
+      "scope": ["meta.link.inline", "meta.link.reference"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#01f7f7"
+      }
+    },
+    {
+      "name": "Markup: bold",
+      "scope": ["markup.bold"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#ffca7a"
+      }
+    },
+    {
+      "name": "Markup: italic",
+      "scope": ["markup.italic"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ffca7a"
+      }
+    },
+    {
+      "name": "Markdown: heading",
+      "scope": ["markup.heading"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#39ffba"
+      }
+    },
+    {
+      "name": "Markdown: List Items Punctuation",
+      "scope": ["punctuation.definition.list_item.markdown"],
+      "settings": {
+        "foreground": "#f1b3f1"
+      }
+    },
+    {
+      "name": "Markdown: Blockquote",
+      "scope": ["markup.quote"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#94bfff"
+      }
+    },
+    {
+      "name": "Markdown: Blockquote Punctuation",
+      "scope": ["punctuation.definition.blockquote.markdown"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#94bfff"
+      }
+    },
+    {
+      "name": "Markdown: Separator",
+      "scope": ["meta.separator"],
+      "settings": {
+        "foreground": "#858db7"
+      }
+    },
+
+    {
+      "name": "Markdown: raw inline",
+      "scope": ["text.html.markdown markup.raw.inline"],
+      "settings": {
+        "foreground": "#39ffba"
+      }
+    },
+
+    {
+      "name": "Markdown: underline",
+      "scope": ["text.html.markdown markup.raw.inline"],
+      "settings": {
+        "fontStyle": "underline",
+        "foreground": "#ffca7a"
+      }
+    },
+    {
+      "name": "Markdown: Raw block",
+      "scope": ["markup.raw.block"],
+      "settings": {
+        "foreground": "#39ffba"
+      }
+    },
+    {
+      "name": "Markdown: Raw Block fenced source",
+      "scope": ["markup.raw.block.fenced.markdown source"],
+      "settings": {
+        "foreground": "#eff0f6"
+      }
+    },
+    {
+      "name": "Markdown: Fenced Code Block",
+      "scope": [
+        "punctuation.definition.fenced.markdown",
+        "variable.language.fenced.markdown"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#858db7"
+      }
+    },
+    {
+      "name": "Markdown: Fenced Language",
+      "scope": ["variable.language.fenced.markdown"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#858db7"
+      }
+    },
+    {
+      "name": "Punctuation Accessor",
+      "scope": ["punctuation.accessor"],
+      "settings": {
+        "foreground": "#f1b3f1"
+      }
+    },
+    {
+      "name": "Meta Function Return Type",
+      "scope": ["meta.function.return-type"],
+      "settings": {
+        "foreground": "#f1b3f1"
+      }
+    },
+    {
+      "name": "Punctuation Section Block Begin",
+      "scope": ["punctuation.section.block.begin"],
+      "settings": {
+        "foreground": "#eff0f6"
+      }
+    },
+    {
+      "name": "Punctuation Section Block End",
+      "scope": ["punctuation.section.block.end"],
+      "settings": {
+        "foreground": "#eff0f6"
+      }
+    },
+    {
+      "name": "Punctuation Section Embedded Begin",
+      "scope": ["punctuation.section.embedded.begin"],
+      "settings": {
+        "foreground": "#f1b3f1"
+      }
+    },
+    {
+      "name": "Punctuation Section Embedded End",
+      "scope": ["punctuation.section.embedded.end"],
+      "settings": {
+        "foreground": "#f1b3f1"
+      }
+    },
+    {
+      "name": "Punctuation Separator Namespace",
+      "scope": ["punctuation.separator.namespace"],
+      "settings": {
+        "foreground": "#f1b3f1"
+      }
+    },
+    {
+      "name": "Variable Function",
+      "scope": ["variable.function"],
+      "settings": {
+        "foreground": "#39ffba"
+      }
+    },
+    {
+      "name": "Variable Other",
+      "scope": ["variable.other"],
+      "settings": {
+        "foreground": "#eff0f6"
+      }
+    },
+    {
+      "name": "Variable Language",
+      "scope": ["variable.language"],
+      "settings": {
+        "foreground": "#f1b3f1"
+      }
+    },
+    {
+      "name": "Entity Name Module Ruby",
+      "scope": ["entity.name.module.ruby"],
+      "settings": {
+        "foreground": "#94bfff"
+      }
+    },
+    {
+      "name": "Entity Name Constant Ruby",
+      "scope": ["entity.name.constant.ruby"],
+      "settings": {
+        "foreground": "#f1b3f1"
+      }
+    },
+    {
+      "name": "Support Function Builtin Ruby",
+      "scope": ["support.function.builtin.ruby"],
+      "settings": {
+        "foreground": "#eff0f6"
+      }
+    },
+    {
+      "name": "Storage Type Namespace CS",
+      "scope": ["storage.type.namespace.cs"],
+      "settings": {
+        "foreground": "#f1b3f1"
+      }
+    },
+    {
+      "name": "Entity Name Namespace CS",
+      "scope": ["entity.name.namespace.cs"],
+      "settings": {
+        "foreground": "#94bfff"
+      }
     }
   ],
   "colors": {
@@ -229,10 +455,19 @@
     "sideBarSectionHeader.foreground": "#EFF0F6",
     "activityBar.background": "#191B2A",
     "activityBar.foreground": "#EFF0F6",
-    "titleBar.activeBackground": "#191B2A",
     "editorGroupHeader.tabsBackground": "#2a2d46",
     "titleBar.activeForeground": "#EFF0F6",
-    "tab.inactiveBackground": "#3c4367"
-  },
-  "name": "Dank Neon"
+    "titleBar.activeBackground": "#191B2A",
+    "tab.inactiveBackground": "#3c4367",
+    "statusBar.background": "#191B2A",
+    "statusBar.foreground": "#EFF0F6",
+    "statusBar.border": "#2a2d46",
+    "statusBar.debuggingBackground": "#a37ca9",
+    "statusBar.debuggingBorder": "#f1b3f1",
+    "statusBar.debuggingForeground": "#EFF0F6",
+    "statusBar.noFolderBackground": "#191B2A",
+    "statusBar.noFolderForeground": "#EFF0F6",
+    "statusBarItem.prominentBackground": "#ffca7a",
+    "statusBarItem.prominentHoverBackground": "#ffee7a"
+  }
 }
