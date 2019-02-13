@@ -21,6 +21,11 @@
         "label": "Dank Neon",
         "uiTheme": "vs-dark",
         "path": "./themes/Dank Neon-color-theme.json"
+      },
+      {
+        "label": "Dank Neon Light",
+        "uiTheme": "vs",
+        "path": "./themes/Dank Neon-color-theme-light.json"
       }
     ]
   },
