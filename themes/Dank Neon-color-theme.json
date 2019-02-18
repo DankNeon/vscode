@@ -447,6 +447,8 @@
     "editor.lineHighlightBackground": "#1d1f30",
     "editorWhitespace.foreground": "#4F5987",
     "editor.selectionBackground": "#656FA4",
+    "editorWidget.background": "#1d1f30",
+    "editorWidget.border": "#858DB788",
     "sideBar.background": "#191B2A",
     "sideBar.foreground": "#EFF0F6",
     "sideBar.dropBackground": "#2a2d46",
